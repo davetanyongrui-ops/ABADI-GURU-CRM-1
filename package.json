@@ -1,0 +1,23 @@
+{
+  "name": "alfa-crm",
+  "version": "1.0.0",
+  "description": "Full-Featured Zoho CRM Alternative with Leads, Pipeline, Quotes, Workflows, Activities, and Analytics",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "crm",
+    "zoho-crm",
+    "sales-pipeline",
+    "lead-management",
+    "kanban",
+    "quotes",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
